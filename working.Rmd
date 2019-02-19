@@ -2,7 +2,9 @@
 title: "Test"
 author: "Mariola Espinosa"
 date: "2/18/2019"
-output: pdf_document
+output:
+  pdf_document: default
+  html_document: default
 csl: /Users/mespinos/Library/texmf/bibtex/csl/chicago-fullnote-bibliography-with-ibid.csl
 bibliography: /Users/mespinos/Library/texmf/bibtex/bib/MELibrary.bib
 ---
@@ -26,7 +28,9 @@ nocite: |
 
 To create a section heading: `# Yellow Fever`. 
 To create a subsection heading: `## Yellow Fever`. 
-To emphasize a word with italics: This word is _important_.
+To emphasize a word with italics: This word is _important_ or *important*.
+To bold a word: This word is __bold__ or **bold**.
+Three for bold italic.
 Block quotes start with >
 
 >During Cuba's Ten Years War of 1868 to 1878, the heat and rains of the summer months brough the threat of yellow fever to the battlefront.  The "invincible Generals June, July, and August" in this way served as allies for the Cuban Liberation Army in the conflict.[@Espinosa2009 1]
