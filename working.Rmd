@@ -11,7 +11,7 @@ bibliography: /Users/mespinos/Library/texmf/bibtex/bib/MELibrary.bib
 - Use `[@citekey]` to cite to a source; citekey will be in AuthorYear format.[@Espinosa2009]  
 - To cite additional works, separate them with a semicolon.[@Espinosa2009; @Humphreys1992]  The citations will appear in their own footnote in the order you listed them.
 - To add a page number, just put it after a comma[@Espinosa2009, 33-35].
-- To add an introductory comment, like "see," use a second, leading set of square brackets[See @Espinosa2009, at 33-35].
+- To add an introductory comment, like "see," just put it in there [See @Espinosa2009, at 33-35].
 - Drop a textual footnote like this.^[This is a footnote.]
 - To cite within a textual footnote.^[Do it like usual; see @Espinosa2009.]	
 - To get a source into the bibliography without actually citing it, define a dummy nocite metadata field in the header at the top and put the citations up there:
